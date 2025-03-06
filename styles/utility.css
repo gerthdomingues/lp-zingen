@@ -30,6 +30,18 @@
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
 /* Edição com mudanças para desktop */
 @media (width >= 80em) {
   .container {

@@ -77,6 +77,18 @@ a {
   color: inherit; /* retira a cor do hiperlink */
 }
 
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
+
+  --webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* define uma regra dizendo que é uma lista */
 ul[role="list"] {
   list-style: none;
